@@ -1,7 +1,7 @@
-# SpendVision — AI Personal Finance Dashboard
+# SpendVision - AI Personal Finance Dashboard
 
 A medium-scale, resume-ready web app for uploading personal transactions, visualizing spending,
-and getting AI-generated financial insights. Built as a focused MVP — not a production fintech
+and getting AI-generated financial insights. Built as a focused MVP - not a production fintech
 platform.
 
 ## 1. Project Overview
