@@ -1,0 +1,152 @@
+date,description,amount,type
+2026-04-01,Salary,65000,income
+2026-04-02,Flipkart,2819.21,expense
+2026-04-03,Rent,15000,expense
+2026-04-04,Uber,239.57,expense
+2026-04-05,Electricity Board,1347.6,expense
+2026-04-05,Airtel Broadband,799,expense
+2026-04-05,Jio Recharge,299,expense
+2026-04-05,Netflix,649,expense
+2026-04-06,Spotify,119,expense
+2026-04-06,McDonald's,466.96,expense
+2026-04-07,BigBasket,1309.64,expense
+2026-04-09,Water Bill,398.31,expense
+2026-04-09,Zomato,311.49,expense
+2026-04-12,Indian Oil Petrol Pump,333.56,expense
+2026-04-13,Uber,311.86,expense
+2026-04-14,DMart,453.63,expense
+2026-04-15,Cafe Coffee Day,358.64,expense
+2026-04-18,Zomato,687.01,expense
+2026-04-18,Uber,488.71,expense
+2026-04-19,Flipkart,2613.72,expense
+2026-04-22,Reliance Fresh,556.49,expense
+2026-04-23,Cafe Coffee Day,464.64,expense
+2026-04-26,Uber,386.49,expense
+2026-04-27,Metro Card Recharge,451.89,expense
+2026-04-28,Swiggy,719.11,expense
+2026-04-28,Apollo Pharmacy,694.16,expense
+2026-05-01,Salary,65000,income
+2026-05-03,Rent,15000,expense
+2026-05-03,Uber,441.66,expense
+2026-05-04,PharmEasy,765.19,expense
+2026-05-05,Netflix,649,expense
+2026-05-05,Ola,412.67,expense
+2026-05-06,Electricity Board,1013.86,expense
+2026-05-06,Spotify,119,expense
+2026-05-07,Cafe Coffee Day,807.28,expense
+2026-05-08,BigBasket,1232.07,expense
+2026-05-08,Chai Point,174.08,expense
+2026-05-08,Ola,294.0,expense
+2026-05-09,Airtel Broadband,799,expense
+2026-05-09,Jio Recharge,399,expense
+2026-05-09,Water Bill,291.9,expense
+2026-05-09,Reliance Fresh,795.31,expense
+2026-05-09,Zomato,334.97,expense
+2026-05-11,Starbucks,350.81,expense
+2026-05-11,Zomato,641.58,expense
+2026-05-13,McDonald's,494.14,expense
+2026-05-13,Metro Card Recharge,498.37,expense
+2026-05-14,Metro Card Recharge,247.75,expense
+2026-05-14,Metro Card Recharge,106.68,expense
+2026-05-15,Apollo Pharmacy,1439.96,expense
+2026-05-17,Indian Oil Petrol Pump,487.85,expense
+2026-05-18,Cafe Coffee Day,347.06,expense
+2026-05-20,BigBasket,1361.45,expense
+2026-05-22,Nykaa,2752.63,expense
+2026-05-27,Chai Point,732.0,expense
+2026-05-28,Uber,365.72,expense
+2026-06-01,Salary,65000,income
+2026-06-01,Amazon,2623.52,expense
+2026-06-03,Rent,15000,expense
+2026-06-03,Netflix,1073.67,expense
+2026-06-04,Electricity Board,1250.41,expense
+2026-06-04,Blinkit,1981.7,expense
+2026-06-05,Netflix,649,expense
+2026-06-05,McDonald's,506.46,expense
+2026-06-06,Water Bill,351.54,expense
+2026-06-06,Spotify,119,expense
+2026-06-07,Cafe Coffee Day,716.45,expense
+2026-06-08,Swiggy,330.65,expense
+2026-06-08,Uber,222.0,expense
+2026-06-09,Jio Recharge,299,expense
+2026-06-10,Airtel Broadband,799,expense
+2026-06-12,BigBasket,1370.88,expense
+2026-06-14,Amazon,18500,expense
+2026-06-16,Chai Point,201.91,expense
+2026-06-17,Reliance Fresh,758.04,expense
+2026-06-17,IRCTC,130.82,expense
+2026-06-17,Apollo Pharmacy,562.02,expense
+2026-06-18,Zomato,348.79,expense
+2026-06-19,Swiggy,214.24,expense
+2026-06-19,Metro Card Recharge,176.65,expense
+2026-06-20,Blinkit,1279.49,expense
+2026-06-22,Indian Oil Petrol Pump,264.0,expense
+2026-06-23,Indian Oil Petrol Pump,247.58,expense
+2026-06-25,Reliance Fresh,2053.29,expense
+2026-06-25,Cafe Coffee Day,724.38,expense
+2026-06-28,Cafe Coffee Day,467.35,expense
+2026-07-01,Salary,65000,income
+2026-07-03,Rent,15000,expense
+2026-07-03,Starbucks,756.02,expense
+2026-07-03,Chai Point,786.52,expense
+2026-07-03,Udemy,1508.44,expense
+2026-07-05,Electricity Board,1406.35,expense
+2026-07-05,Netflix,649,expense
+2026-07-05,Starbucks,287.62,expense
+2026-07-06,Spotify,119,expense
+2026-07-06,IRCTC,80.91,expense
+2026-07-07,Jio Recharge,719,expense
+2026-07-07,DMart,574.48,expense
+2026-07-07,Zomato,552.21,expense
+2026-07-07,Amazon,2237.54,expense
+2026-07-10,Airtel Broadband,799,expense
+2026-07-10,Water Bill,365.24,expense
+2026-07-13,Indian Oil Petrol Pump,469.14,expense
+2026-07-14,Blinkit,1162.44,expense
+2026-07-14,IRCTC,282.17,expense
+2026-07-15,DMart,1612.06,expense
+2026-07-15,Zomato,805.86,expense
+2026-07-16,Flipkart,1069.69,expense
+2026-07-17,Practo Consultation,404.66,expense
+2026-07-17,Apollo Pharmacy,1306.75,expense
+2026-07-21,DMart,509.1,expense
+2026-07-21,Cafe Coffee Day,777.02,expense
+2026-07-22,Apollo Pharmacy,9200,expense
+2026-07-24,Nykaa,2485.61,expense
+2026-07-24,Amazon Prime Video,351.45,expense
+2026-07-26,Chai Point,231.95,expense
+2026-07-26,IRCTC,199.8,expense
+2026-07-28,Cafe Coffee Day,223.43,expense
+2026-07-28,IRCTC,459.03,expense
+2026-08-01,Salary,65000,income
+2026-08-03,Rent,15000,expense
+2026-08-03,DMart,1224.91,expense
+2026-08-03,Flipkart,2136.77,expense
+2026-08-04,Airtel Broadband,799,expense
+2026-08-04,Swiggy,553.23,expense
+2026-08-04,Zomato,348.35,expense
+2026-08-04,McDonald's,564.92,expense
+2026-08-05,Netflix,649,expense
+2026-08-06,Spotify,119,expense
+2026-08-07,Jio Recharge,719,expense
+2026-08-07,Blinkit,829.63,expense
+2026-08-07,Indian Oil Petrol Pump,292.27,expense
+2026-08-08,Electricity Board,1298.77,expense
+2026-08-09,Water Bill,368.9,expense
+2026-08-09,Dominos,603.62,expense
+2026-08-09,Uber,118.77,expense
+2026-08-09,Ola,391.32,expense
+2026-08-09,Flipkart,22999,expense
+2026-08-10,Zepto,969.12,expense
+2026-08-11,Ola,347.59,expense
+2026-08-12,Swiggy,809.45,expense
+2026-08-12,Dominos,268.31,expense
+2026-08-13,BigBasket,1609.04,expense
+2026-08-14,Indian Oil Petrol Pump,98.52,expense
+2026-08-14,Apollo Pharmacy,254.38,expense
+2026-08-17,Blinkit,2082.47,expense
+2026-08-17,Dominos,249.34,expense
+2026-08-17,Swiggy,650.9,expense
+2026-08-18,McDonald's,376.89,expense
+2026-08-18,Dominos,848.82,expense
+2026-08-18,IRCTC,315.58,expense

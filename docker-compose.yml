@@ -1,0 +1,30 @@
+# Minimal docker-compose: runs only PostgreSQL.
+# The backend and frontend are intended to be run locally (see README) so
+# the inner dev loop (hot reload, debugging) stays fast and simple.
+#
+# Usage:
+#   docker compose up -d
+#
+# This starts Postgres on localhost:5432 with a persisted volume.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: finance_dashboard_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: finance_user
+      POSTGRES_PASSWORD: finance_password
+      POSTGRES_DB: finance_dashboard
+    ports:
+      - "5432:5432"
+    volumes:
+      - finance_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U finance_user -d finance_dashboard"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  finance_pg_data:
