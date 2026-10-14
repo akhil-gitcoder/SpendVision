@@ -4,6 +4,13 @@ from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
+def normalize_origin(value: str | None) -> str:
+    """Canonical form for comparing origins: "https://Site.app/ " -> "https://site.app"."""
+    if not value:
+        return ""
+    return value.strip().strip("'\"").strip().rstrip("/").lower()
+
+
 class Settings(BaseSettings):
     database_url: str = (
         "postgresql://finance_user:finance_password"
@@ -32,11 +39,14 @@ class Settings(BaseSettings):
 
     @property
     def cors_origin_list(self) -> list[str]:
-        return [
-            origin.strip()
-            for origin in self.cors_origins.split(",")
-            if origin.strip()
-        ]
+        # Tolerate harmless formatting in the env var: spaces/newlines,
+        # surrounding quotes, trailing slashes and capital letters.
+        origins = []
+        for raw in self.cors_origins.replace("\n", ",").split(","):
+            origin = normalize_origin(raw)
+            if origin:
+                origins.append(origin)
+        return origins
 
     @property
     def is_ai_configured(self) -> bool:

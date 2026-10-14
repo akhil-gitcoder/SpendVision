@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.api import api_router
-from app.config import get_settings
+from app.config import get_settings, normalize_origin
 from app.database import Base, SessionLocal, engine
 from app.utils.seed import run_seed
 
@@ -37,11 +37,17 @@ async def protect_browser_requests(
     if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
         origin = request.headers.get("origin")
 
-        if origin not in settings.cors_origin_list:
+        if normalize_origin(origin) not in settings.cors_origin_list:
+            # Origins aren't secret - echoing the one received makes a
+            # CORS_ORIGINS mismatch obvious instead of a guessing game.
+            logger.warning(
+                "Rejected %s %s from origin %r (allowed: %s)",
+                request.method, request.url.path, origin, settings.cors_origin_list,
+            )
             return JSONResponse(
                 status_code=403,
                 content={
-                    "detail": "Untrusted request origin."
+                    "detail": f"Untrusted request origin ({origin or 'none'})."
                 },
             )
 
@@ -57,6 +63,7 @@ async def protect_browser_requests(
 def on_startup() -> None:
     # create_all is sufficient for this MVP (no migration history needed yet).
     # For a production app, this would be replaced by Alembic migrations.
+    logger.info("Allowed frontend origins (CORS_ORIGINS): %s", settings.cors_origin_list)
     Base.metadata.create_all(bind=engine)
     db = SessionLocal()
     try:
